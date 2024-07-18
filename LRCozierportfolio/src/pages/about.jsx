@@ -2,14 +2,14 @@ import React from "react";
 import HTML5 from '../assets/images/skills/HTML5.png';
 import CSS3 from '../assets/images/skills/CSS3.png';
 import JavaScript from '../assets/images/skills/JavaScript.png';
-import Nodejs from '../assets/images/skills/Node.js.png';
-import Reactjs from '../assets/images/skills/React.png';
+import Nodejs from '../assets/images/skills/Nodejs.png';
+import Reactjs from '../assets/images/skills/Reactjs.png';
 import Jest from '../assets/images/skills/Jest.png';
 import Git from '../assets/images/skills/Git.png';
 import Python from '../assets/images/skills/Python.png';
 import MySQL from '../assets/images/skills/MySQL.png';
 
-const about= () => {
+const About= () => {
     return (
         <>
             <section className="portfolio-section" id="about-me">
@@ -31,7 +31,6 @@ const about= () => {
                     <img src={HTML5} alt="HTML5"/>
                     <img src={CSS3} alt="CSS3"/>
                     <img src={JavaScript} alt="Javascript"/>
-                    <img src={Nodejs} alt="Javascript"/>
                     <img src={Reactjs} alt="React" />
                     <img src={Nodejs} alt="Node.js" />
                     <img src={Jest} alt="Jest" />
@@ -44,4 +43,4 @@ const about= () => {
     );
 }
 
-export default about;
+export default About;
