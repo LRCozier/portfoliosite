@@ -1,15 +1,15 @@
 import React from "react";
 
-const home = () => {
+const Home = () => {
 
     return(
-        <>
-        <section className="portfolio-section" id="hero">
+        <div className="hero" id="hero">
+        <section className="portfolio-section" id="hero-section">
             <h1>Luke Rudderham-Cozier</h1>
             <h2>Front End Developer</h2>
         </section>
-        </>
+        </div>
     )
 }
 
-export default home;
+export default Home;

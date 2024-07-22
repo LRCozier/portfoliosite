@@ -25,6 +25,7 @@ const Contact = () => {
       
 
     return(
+      <div className="contact" id="contact-page">
         <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
@@ -60,6 +61,7 @@ const Contact = () => {
         </div>
         <button type="submit">Submit</button>
       </form>
+      </div>
     )
 };
 

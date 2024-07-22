@@ -1,11 +1,11 @@
 .header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 10px 20px;
     color: white;
     position: fixed;
     top: 0;
+    width: 100%;
+    z-index: 1000;
   }
   
   .logo {
@@ -15,21 +15,20 @@
   .nav {
     display: flex;
     list-style: none;
-    margin-left: auto;
+    margin-right: auto;
   }
   
   .nav ul {
-    display: flex;
-    gap: 20px;
+    justify-content: flex-end;
+    padding: 1em 2em;
     margin: 0;
-    padding: 0;
   }
   
-  .nav li {
+  .nav ul li {
     display: inline;
   }
   
-  .nav a {
+  .nav ul li a {
     color: white;
     text-decoration: none;
   }
