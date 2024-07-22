@@ -28,6 +28,7 @@ const About= () => {
                 </div>
                 <div id="skills">
                     <h3>My Stack</h3>
+                    <div className="image-container">
                     <img src={HTML5} alt="HTML5"/>
                     <img src={CSS3} alt="CSS3"/>
                     <img src={JavaScript} alt="Javascript"/>
@@ -37,6 +38,7 @@ const About= () => {
                     <img src={Git} alt="Git" />
                     <img src={Python} alt="Python" />
                     <img src={MySQL} alt="MySQL" />
+                    </div>
                 </div>
             </section>
         </>

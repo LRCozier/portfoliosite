@@ -7,14 +7,40 @@ body, html, #root {
   height: 100%; 
 }
 
-.section {
-  height: 100vh; /*ONLY SHOWS 1 SECTION AT A TIME FOR USERS*/
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-
+.portfolio-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: 4rem;
+    justify-content: center;
 }
+
+.image-container {
+    flex: 1 1 100%; 
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/* Adjust layout for larger screens */
+@media (min-width: 768px) {
+    .image-container {
+        flex: 1 1 calc(33.333% - 1rem); /* Three images per row */
+    }
+}
+
+@media (min-width: 1024px) {
+    .image-container {
+        flex: 1 1 calc(16.666% - 1rem); /* Six images per row */
+    }
+}
+
 /*START - CONTACT FORM CSS */
 form {
     display: flex;
