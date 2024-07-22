@@ -5,12 +5,3 @@ footer {
     width: 100%;
     padding: 10px;
 }
-
-footer ul li {
-    display: inline;
-    padding: 10px;
-}
-
-.social-icon {
-    font-size: 25px;
-}
