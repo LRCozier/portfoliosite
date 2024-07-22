@@ -9,6 +9,7 @@ body, html, #root {
 
 .portfolio-section {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 1rem;
     padding-top: 4rem;
@@ -16,16 +17,21 @@ body, html, #root {
 }
 
 .image-container {
+    display: flex;
     flex: 1 1 100%; 
-    max-width: 100%;
-    overflow: hidden;
+    max-width: calc(100% - 1rem);
 }
 
 .image-container img {
-    width: 100%;
+    width: 15%;
     height: auto;
-    display: block;
     object-fit: cover;
+}
+
+.image-container-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; /* Space between images */
 }
 
 /* Adjust layout for larger screens */
