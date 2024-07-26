@@ -28,22 +28,16 @@ const About= () => {
                 </div>
                 <div id="skills">
                     <h3>My Stack</h3>
-                    <div className="image-container">
-                        <div className="image-container-row">
+                    <div className="skills-image-container">
                         <img src={HTML5} alt="HTML5"/>
                         <img src={CSS3} alt="CSS3"/>
                         <img src={JavaScript} alt="Javascript"/>
-                        </div>
-                        <div className="image-container-row">
                         <img src={Reactjs} alt="React" />
                         <img src={Nodejs} alt="Node.js" />
                         <img src={Jest} alt="Jest" />
-                        </div>
-                        <div className="image-container-row">
                         <img src={Git} alt="Git" />
                         <img src={Python} alt="Python" />
                         <img src={MySQL} alt="MySQL" />
-                        </div>
                     </div>
                 </div>
             </section>

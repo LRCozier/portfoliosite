@@ -16,6 +16,11 @@ body, html, #root {
     justify-content: center;
 }
 
+.section-title{
+  justify-content: center;
+  align-items: center;
+}
+
 .image-container {
     display: flex;
     flex: 1 1 100%; 
