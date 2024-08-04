@@ -14,6 +14,19 @@ body, html, #root {
     padding-top: 4rem;
     margin-left: auto;
     margin-right: auto;
+    padding: 3%;
+}
+
+h1{
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+h2{
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
 }
 
 .skills-image-container {
@@ -48,6 +61,8 @@ body, html, #root {
   height: 10%;
   width: 10%;
   border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*START - CONTACT FORM CSS */
 form {
