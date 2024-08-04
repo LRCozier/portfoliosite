@@ -1,42 +1,34 @@
 body, html, #root {
-  height: 100%;
-  margin: 0;
+  margin: 4;
+  padding: 4;
 }
 
 .App {
-  height: 100%; 
+  height: 100%;
+  display: block;
 }
 
 .portfolio-section {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    height: 100%;
     gap: 1rem;
     padding-top: 4rem;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.section-title{
-  justify-content: center;
-  align-items: center;
-}
-
-.image-container {
+.skills-image-container {
     display: flex;
-    flex: 1 1 100%; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 1 1 100%;
+    gap: 1rem; 
     max-width: calc(100% - 1rem);
 }
 
-.image-container img {
-    width: 15%;
-    height: auto;
+.skills-image-container img {
+    width: 10%;
+    height: 10%;
     object-fit: cover;
-}
-
-.image-container-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem; /* Space between images */
 }
 
 /* Adjust layout for larger screens */
@@ -52,6 +44,11 @@ body, html, #root {
     }
 }
 
+#profile-picture {
+  height: 10%;
+  width: 10%;
+  border-radius: 50%;
+}
 /*START - CONTACT FORM CSS */
 form {
     display: flex;
