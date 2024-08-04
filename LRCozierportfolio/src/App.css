@@ -11,22 +11,15 @@ body, html, #root {
 .portfolio-section {
     height: 100%;
     gap: 1rem;
-    padding-top: 4rem;
+    padding-top: 7rem;
     margin-left: auto;
     margin-right: auto;
     padding: 3%;
 }
 
-h1{
-  margin-left: auto;
-  margin-right: auto;
-  width: 600px;
-}
-
-h2{
-  margin-left: auto;
-  margin-right: auto;
-  width: 10%;
+h1, h2, h3{
+  display: flex;
+  justify-content: center;
 }
 
 .skills-image-container {
@@ -58,8 +51,8 @@ h2{
 }
 
 #profile-picture {
-  height: 10%;
-  width: 10%;
+  display: flex;
+  width: 15%;
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
