@@ -25,6 +25,12 @@ const About= () => {
                         has become an integral part of who I am, driving me forward with an insatiable curiosity and a relentless
                         pursuit of excellence.
                     </p>
+                    <p>
+                    My focus lies in crafting practical, visually appealing web applications that offer an engaging and captivating user 
+                    experience. My approach to coding emphasizes clarity, simplicity, and directness. I eliminate unnecessary complexity, 
+                    concentrating on the essential elements of each project. I ensure flexibility in every project to guarantee that the 
+                    final product aligns with the customer's needs, expectations, and budget.
+                    </p>
                 </div>
                 <div id="skills">
                     <h3>My Stack</h3>
