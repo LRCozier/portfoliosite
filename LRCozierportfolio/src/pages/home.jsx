@@ -8,7 +8,7 @@ const Home = () => {
         <section className="portfolio-section" id="hero-section">
             <img src={Profile} alt="profilepicture" id="profile-picture"></img>
             <h1>Luke Rudderham-Cozier</h1>
-            <h2>Front End Developer</h2>
+            <h2 className="section-title">Front End Developer</h2>
         </section>
         </div>
     )
