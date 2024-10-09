@@ -1,5 +1,4 @@
 import React from "react";
-import Profile from ".assets/Profile.jpg";
 
 const Main = () => {
 
