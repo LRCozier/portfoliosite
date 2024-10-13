@@ -1,9 +1,4 @@
 import React from "react";
-import { IoLogoHtml5 } from "react-icons/io";
-import { IoLogoCss3 } from "react-icons/io";
-import { IoLogoJavascript } from "react-icons/io";
-import { IoLogoReact } from "react-icons/io5";
-import { IoLogoNodejs } from "react-icons/io5";
 
 const About = () => {
 
@@ -18,11 +13,6 @@ const About = () => {
             <div className="skills-section">
             <h4>Skills</h4>
             <div className="skills-container">
-            <IoLogoHtml5 />
-            <IoLogoCss3 />
-            <IoLogoJavascript/>
-            <IoLogoReact/>
-            <IoLogoNodejs/>
             </div>
             </div>
         </div>
